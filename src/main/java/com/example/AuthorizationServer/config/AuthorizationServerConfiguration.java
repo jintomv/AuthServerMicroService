@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
@@ -30,9 +31,12 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
 	KeyPair keyPair;
 	boolean jwtEnabled;
 	
-	@Autowired
-	PasswordEncoder encoder;
+//	@Autowired
+//	PasswordEncoder encoder;
 
+	@Autowired
+	BCryptPasswordEncoder encoder;
+	
 	public AuthorizationServerConfiguration(
 			AuthenticationConfiguration authenticationConfiguration,
 			KeyPair keyPair,
