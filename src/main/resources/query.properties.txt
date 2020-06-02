@@ -1,0 +1,17 @@
+Database queries
+
+create database user;
+
+use user;
+
+create table user1(
+   id INT NOT NULL AUTO_INCREMENT,
+   username VARCHAR(100) NOT NULL,
+   password VARCHAR(250) NOT NULL,
+   roles VARCHAR(45),
+   active tinyint(1),
+   PRIMARY KEY (id)
+);
+
+
+
