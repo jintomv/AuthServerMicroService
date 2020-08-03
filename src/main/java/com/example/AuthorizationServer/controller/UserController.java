@@ -10,11 +10,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.AuthorizationServer.models.User;
 import com.example.AuthorizationServer.repository.UserRepository;
-
+/**
+ * This is a test merge file
+ * @author jinto varghese
+ *
+ */
 @RestController
 public class UserController {
 
-	@Autowired
+	@Autowired 
 	UserRepository repository;
 	
 //	@Autowired
