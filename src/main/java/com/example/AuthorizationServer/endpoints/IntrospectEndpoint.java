@@ -1,5 +1,9 @@
 package com.example.AuthorizationServer.endpoints;
-
+/**
+ * 
+ * This is to test that the two branches are merging
+ * 
+ */
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
