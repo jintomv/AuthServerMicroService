@@ -4,7 +4,11 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
+/**
+ * Client Details for db configurartion
+ * @author jinto varghese
+ *
+ */
 @Entity
 @Table(name = "clientdetails")
 public class ClientDetailsEntity {
