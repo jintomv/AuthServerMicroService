@@ -33,7 +33,7 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
 	
 //	@Autowired
 //	PasswordEncoder encoder;
-//Config Class
+//Config Class haloooo
 
 	@Autowired
 	BCryptPasswordEncoder encoder;
