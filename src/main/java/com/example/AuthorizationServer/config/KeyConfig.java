@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class KeyConfig {
-	//Key config calss
+	//Key config calss Hi
 	
 	@Bean
 	KeyPair keyPair() {
